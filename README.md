@@ -1,0 +1,1 @@
+The reason why a simple recursive function is so slow, even for fairly small values of n (like n=45 or n=50) is the method recusive so many times. For every call to fibonacci, it have to expand into two fibonacci. BigO ~ 2^n
